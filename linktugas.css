@@ -2,3 +2,12 @@ body{
     background-color: rgb(203, 228, 203);
     font-family: Quicksand, Arial, sans-serif;
 }
+h3{
+    text-align: center;
+    
+     
+}
+table{
+    border-collapse: collapse;
+    background-color: rgb(243, 245, 238);
+}
