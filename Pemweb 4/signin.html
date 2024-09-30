@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/hello.css">
+</head>
+<body>
+        <div class="content-5">
+          <form>
+            <h2>Sign in</h2>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required />
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+    
+            <label for="jenis-kelamin">Jenis Kelamin:</label>
+            <select id="jenis-kelamin" name="jenis-kelamin">
+              <option value="nothing" disabled selected required>--Pilih Salah Satu--</option>
+              <option value="pria">Pria</option>
+              <option value="wanita">Wanita</option>
+              <option value="lainnya">Lainnya</option>
+            </select>
+            
+            <label for="usia">Usia:</label>
+            <input type="number" id="usia" name="usia" required>
+            <button type="submit" value="Daftar">Submit</button>
+          </form>
+        </div>
+</body>
+</html>
